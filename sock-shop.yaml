@@ -642,10 +642,8 @@ spec:
       nodeSelector:
         beta.kubernetes.io/os: linux
 ---
-apiVersion: v1
+apiVersion: apps/v1
 kind: Deployment.spec.selecto
-selector:
-matchLabels:
 metadata:
   name: user
   labels:
